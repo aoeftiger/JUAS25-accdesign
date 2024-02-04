@@ -15,7 +15,7 @@ The published docker image is found here:
 ## Running the container
 The docker container can be run on the command line via
 
-    JUPYTER_TOKEN=madx docker run -p 8888:8888 -e JUPYTER_TOKEN -e CHOWN_HOME=yes -e CHOWN_HOME_OPTS='-R' -v $HOME:/home/jovyan/home/ aoeftiger/JUAS24-accdesign
+    JUPYTER_TOKEN=madx docker run -p 8888:8888 -e JUPYTER_TOKEN -e CHOWN_HOME=yes -e CHOWN_HOME_OPTS='-R' -v $HOME:/home/jovyan/home/ aoeftiger/juas24-accdesign
 
 where
 
