@@ -6,7 +6,7 @@ This repository provides a `cpymad` and `MAD-X` configuration for running jupyte
 
 Launch an interactive binder instance here:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aoeftiger/JUAS24-accdesign/v1.0)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aoeftiger/JUAS24-accdesign/v1.1)
 
 The published docker image is found here:
 
