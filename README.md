@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/752701535.svg)](https://zenodo.org/doi/10.5281/zenodo.10877902)
+
 # Joint Universities Accelerator School 2024: Accelerator Design Workshop
 
 The [JUAS](https://www.esi-archamps.eu/juas-presentation/) 2024 features an accelerator design workshop. This repository provides the lattice design jupyter notebook, which contains the setup and exercises to design a particle collider.
