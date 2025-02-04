@@ -12,7 +12,7 @@ Launch an interactive binder instance here:
 
 The published docker image is found here:
 
-[![Docker](https://shields.api-test.nl:/docker/image-size/aoeftiger/juas24-accdesign?logo=docker)](https://hub.docker.com/r/aoeftiger/juas25-accdesign)
+[![Docker](https://hub.docker.com/r/aoeftiger/juas25-accdesign)](https://hub.docker.com/r/aoeftiger/juas25-accdesign)
 
 ## Running the container
 The docker container can be run on the command line via
