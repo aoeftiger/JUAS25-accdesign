@@ -1,23 +1,23 @@
 [![DOI](https://zenodo.org/badge/752701535.svg)](https://zenodo.org/doi/10.5281/zenodo.10877902)
 
-# Joint Universities Accelerator School 2024: Accelerator Design Workshop
+# Joint Universities Accelerator School 2025: Accelerator Design Workshop
 
-The [JUAS](https://www.esi-archamps.eu/juas-presentation/) 2024 features an accelerator design workshop. This repository provides the lattice design jupyter notebook, which contains the setup and exercises to design a particle collider.
+The [JUAS](https://www.esi-archamps.eu/juas-presentation/) 2025 features an accelerator design workshop. This repository provides the lattice design jupyter notebook, which contains the setup and exercises to design a particle collider.
 
 This repository provides a `cpymad` and `MAD-X` configuration for running jupyter notebooks, locally inside a docker container or on [mybinder.org](https://mybinder.org/).
 
 Launch an interactive binder instance here:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aoeftiger/JUAS24-accdesign/v1.1)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aoeftiger/JUAS25-accdesign/v1.1)
 
 The published docker image is found here:
 
-[![Docker](https://shields.api-test.nl:/docker/image-size/aoeftiger/juas24-accdesign?logo=docker)](https://hub.docker.com/r/aoeftiger/juas24-accdesign)
+[![Docker](https://shields.api-test.nl:/docker/image-size/aoeftiger/juas24-accdesign?logo=docker)](https://hub.docker.com/r/aoeftiger/juas25-accdesign)
 
 ## Running the container
 The docker container can be run on the command line via
 
-    JUPYTER_TOKEN=madx docker run -p 8888:8888 -e JUPYTER_TOKEN -e CHOWN_HOME=yes -e CHOWN_HOME_OPTS='-R' -v $HOME:/home/jovyan/home/ aoeftiger/juas24-accdesign
+    JUPYTER_TOKEN=madx docker run -p 8888:8888 -e JUPYTER_TOKEN -e CHOWN_HOME=yes -e CHOWN_HOME_OPTS='-R' -v $HOME:/home/jovyan/home/ aoeftiger/juas25-accdesign
 
 where
 
@@ -30,7 +30,7 @@ Next you can open your browser and load the page [https://localhost:8888/?token=
 ## Building locally
 The docker container for this repository can be built locally by running on the command line
 
-    docker build -t aoeftiger/JUAS24-accdesign .
+    docker build -t aoeftiger/JUAS25-accdesign .
 
 ## Troubleshooting
 If you face permission issues with accessing your home directory from within the container, you might want to provide your user ID and group ID explicitly to the container as a solution.
